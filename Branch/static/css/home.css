@@ -1,0 +1,26 @@
+*
+{
+    border: 0px; margin: 0px; padding: 0px;
+}
+.UwU
+{
+    background-color: 000;
+}
+.nav a
+{
+    text-decoration: none;
+}
+.nav
+{   
+    margin-top: 20%;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+body header h1
+{   
+    margin: 2%;
+    color: white;
+}

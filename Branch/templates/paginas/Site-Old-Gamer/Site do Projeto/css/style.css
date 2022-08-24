@@ -1,0 +1,138 @@
+body{
+  background-color: whitesmoke;
+}
+
+/* Cabecalho */
+.text-small {
+  font-size: 85%;
+}
+
+/* Main */
+.formulario {
+  text-align: center;
+}
+
+.title-area{
+  text-align: center;
+}
+
+.meu-title{
+  font-size: 40px;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+}
+
+.link-area{
+  text-decoration: none;
+  color: black;
+}
+
+.link-area:hover{
+  color: rgb(48, 44, 44);
+}
+
+.list-group{
+  font-size: 20px;
+}
+
+.img-area{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.col-6{
+  margin-top: 20px;
+}
+
+.noticia{
+  margin: auto;
+}
+
+.secao-imagem{
+  margin: 20px 0px 30px 0px;
+  text-align: center;
+}
+
+.editar{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 0%;
+}
+
+.imagem {
+  position: relative;
+}
+.capa {
+  display: none;
+}
+
+.imagem:hover .capa {
+  display: block;
+}
+
+.capa {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  line-height: 15px;
+}
+
+.capa > p{
+  font-size: 18px;
+}
+
+
+/* Card */
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-area{
+  margin-top: 70px;
+}
+
+.card-last{
+  margin-bottom: 70px;
+}
+
+.card-title{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.card-text{
+  margin: auto;
+   font-size: 20px;
+}
+
+.card-pag{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Video */
+.container .video {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 40px 0px;
+}
+
+/* Footer */
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.p-form{
+  font-size: 20px;
+  color: black;
+}

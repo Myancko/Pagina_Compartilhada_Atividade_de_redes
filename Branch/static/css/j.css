@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*
+{
+    border: 0px;
+    margin: 0px; 
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', cursive;
+}
+main
+{   
+    position: relative;
+}
+body
+{
+    background-image: url("../imagens/samuels_drift.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+.nav
+{
+    display: flex;
+    z-index: 1;
+    position:relative;
+}
+.nav .menu_canto
+{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: darkslategray;
+    color: white;
+    padding: 30px 0px ;
+    opacity: ;
+}
+
+#borda
+{
+    border-radius: 50%;
+}
+.icone
+{
+    text-align: center;
+}
+.elo
+{
+    text-align: center;
+    color: gold;
+    padding-bottom: 5%;
+}
+.li_texto
+{
+    position: inherit;
+    font-size: 63%;
+}
+.funcao
+{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 125%;
+    padding-left: 1%;
+}
+.li_main
+{
+    font-size: 63%;
+    padding-left: 1%;
+}
+.nav .menu_canto h1
+{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.img_seq
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.imgs
+{
+    border-radius: 50%;
+}
+.main_txt
+{
+    display: flex;
+    flex-flow: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+}
+.titulo
+{
+    display: flex;
+    flex-flow: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+    padding: 5% 5% 5% 4%;
+    color: white;
+    background-color: #464848;
+    
+}
+.main_txt p
+{
+    padding: 5% 5% 5% 5%;
+    color: white;
+}
+.vid
+{
+    display: flex;
+    flex-flow: row;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.foot
+{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    padding: 2% 2% 2% 2%;
+    background-color: #040505;
+}
