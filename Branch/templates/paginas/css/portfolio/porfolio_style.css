@@ -64,7 +64,7 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(/APP/static/image/portfolio/bg.jpg) no-repeat;
+    background: url(/Branch/static/imagens/portfolio/bg.jpg) no-repeat;
     background-size: auto auto;
 
      /*background-image: url("background.png");
